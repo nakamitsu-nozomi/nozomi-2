@@ -1,3 +1,4 @@
+/* 共通 */
 body {
     margin: 0px;
     padding: 0px;
@@ -8,8 +9,16 @@ body {
 
 }
 
+.bs {
+    margin-bottom: 2em;
+}
+
+.ss {
+    margin-bottom: 0.5em;
+}
+
 /* ヘッダー */
-#header {
+header {
     background-color: #666666;
     height: 80px;
     position: fixed;
@@ -89,7 +98,7 @@ main {
 }
 
 .contents {
-    width: 500px;
+    /* width: 500px; */
     margin-right: auto;
     margin-left: auto;
     padding-top: 100px;
@@ -115,31 +124,39 @@ main {
 hr {
     margin-top: 5px;
     height: 3px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 
 }
 
 /* about */
 .profile {
-    text-align: center;
+    text-align: left;
     margin-bottom: 100px;
     font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+
 
 .profile span {
     font-size: 30px;
 }
 
 .profile ul {
-    display: flex;
-    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+    margin-left: 150px;
 
 }
 
+
+
 .profile li {
     list-style: none;
-    width: 25%;
+    /* width: 25%; */
     justify-content: center;
+
 }
 
 .interast {
@@ -148,6 +165,31 @@ hr {
     margin-top: 30px;
 
 }
+
+.mokuhyou {
+    border-top: 2px dotted #666666;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#photo {
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.red {
+    color: red;
+}
+
+li img {
+    margin-right: 10px;
+
+}
+
+
 
 /* work */
 .work-sample {
