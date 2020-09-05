@@ -3,56 +3,65 @@ body {
     padding: 0px;
     font-family: 'Open Sans Condensed', sans-serif;
     position: relative;
-     
- 
-   
+
+
+
 }
 
 /* ヘッダー */
-header{
-    background-color:#666666;
+#header {
+    background-color: #666666;
     height: 80px;
     position: fixed;
     width: 100%;
-    color:#ffcccc;
-    top: 0; 
+    color: #ffcccc;
+    top: 0;
     left: 0;
     z-index: 9999;
-  
+
 }
-.tag{
+
+.tag {
     text-align: right;
     padding-top: 10px;
     padding-right: 30px;
 }
-.tag li{
+
+.tag li {
     list-style: none;
     padding: 20px;
     display: inline;
     font-size: 25px;
 }
-.tag li:link, a:visited, a:hover, a:active {
-      color:#ffcccc; 
-      
-  }
-.tag a{
+
+.tag li:link,
+a:visited,
+a:hover,
+a:active {
+    color: #ffcccc;
+
+}
+
+.tag a {
     text-decoration: none;
-  }
-.header-logo{
+}
+
+.header-logo {
     float: left;
-   padding-top: 10px;
-   padding-left: 80px;
+    padding-top: 10px;
+    padding-left: 80px;
     font-size: 40px;
 }
 
-.top-wrapper{
+.top-wrapper {
     width: 100%;
 
-    
+
 }
+
 /* 画像切り替え */
 
-#main-image{
+#main-image {
     width: 100%;
     height: 600px;
     opacity: 0.7;
@@ -60,76 +69,88 @@ header{
 
 #sentense {
     position: absolute;
-    color:#fff;
+    color: #fff;
     text-align: center;
-    font-size: 80px;
+    font-size: 50px;
     display: none;
-    top: 40px;
-    left: 350px;
+    top: 80px;
+    left: 300px;
+    font-family: 'M PLUS 1p',
+        sans-serif;
+
+
 }
 
 /* メイン */
-main{
+main {
     color: #666666;
-   
+
 
 }
-.contents{
-    width:500px ;
-    margin-right: auto;
-   margin-left : auto;
-   padding-top: 100px;
 
-    
+.contents {
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 100px;
+
+
 }
 
 
 /* タイトル */
-.title{
- text-align: center;
- font-size: 40px;
- padding-top: 80px;
-  margin-top:-80px;
+.title {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 80px;
+    margin-top: -80px;
 }
 
 
-.title img{
-padding: 0 10px;
-padding-right: 20px;
+.title img {
+    padding: 0 10px;
+    padding-right: 20px;
 }
-hr{
- margin-top: 5px;
- height: 3px;
- margin-bottom: 100px;
+
+hr {
+    margin-top: 5px;
+    height: 3px;
+    margin-bottom: 100px;
 
 }
+
 /* about */
-.profile{
+.profile {
     text-align: center;
     margin-bottom: 100px;
     font-size: 18px;
 }
-.profile span{
- font-size: 30px;
+
+.profile span {
+    font-size: 30px;
 }
-.profile ul{
-    display:flex;
-    flex-wrap:wrap;
-   
+
+.profile ul {
+    display: flex;
+    flex-wrap: wrap;
+
 }
-.profile li{
+
+.profile li {
     list-style: none;
     width: 25%;
     justify-content: center;
 }
-.interast{
+
+.interast {
     text-align: center;
     padding-left: 50px;
     margin-top: 30px;
-   
+
 }
+
 /* work */
-.work-sample{
+.work-sample {
     border: 1px solid #666666;
     border-radius: 5px;
     text-align: center;
@@ -139,22 +160,24 @@ hr{
     margin-bottom: 70px;
     height: auto;
     padding-bottom: 20px;
-    
-    
-}
 
-.title-text{
-  font-size: 40px;
-  margin-bottom: 0;
 
 }
-.descriotion{
+
+.title-text {
+    font-size: 40px;
+    margin-bottom: 0;
+
+}
+
+.descriotion {
     font-size: 20px;
 }
-.work-sample a{
+
+.work-sample a {
     color: #666666;
     text-decoration: none;
-    border:1px solid #666666;
+    border: 1px solid #666666;
     border-radius: 5px;
     padding: 5px;
 }
@@ -162,53 +185,62 @@ hr{
 
 
 /* contact */
-.contact-item{
-   text-align: center;
-   margin-bottom: 30px;
-   font-size: 20px;
+.contact-item {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
 
 }
-.contact-item span{
+
+.contact-item span {
     font-size: 30px;
     margin-bottom: 20px;
-   
+
 }
-.web{
+
+.web {
     width: 300px;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    
+
 }
-.webtitle,.location{
-    padding-left:30px;
+
+.webtitle,
+.location {
+    padding-left: 30px;
 }
-.web ul{
-    display:flex;
-    flex-wrap:wrap;
+
+.web ul {
+    display: flex;
+    flex-wrap: wrap;
 }
-.web li{
+
+.web li {
     list-style: none;
     width: 25%;
     justify-content: center;
     transition: all 0.6s ease 0s;
-  
+
 }
-.web li:hover{
+
+.web li:hover {
     cursor: pointer;
     transform: scale(2, 2);
-    
+
 }
+
 /* fフッター */
-footer{
+footer {
     background-color: #666666;
     height: 40px;
     width: 100%;
-  
-    padding-bottom:40px
+
+    padding-bottom: 40px
 }
-footer h3{
+
+footer h3 {
     padding: 20px;
     color: #ffcccc;
     text-align: center;
