@@ -189,6 +189,39 @@ li img {
 
 }
 
+/* skill */
+
+#skill ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    text-align: center;
+    margin-bottom: 100px;
+
+
+}
+
+#skill img {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+#skill li {
+    width: 25%;
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#skill p {
+    font-size: 40px;
+    margin-top: 2px;
+}
+
 
 
 /* work */
