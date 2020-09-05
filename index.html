@@ -1,148 +1,205 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>profile</title>
     <!-- jqueryを読み込み -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header>
-        <div class="header-logo">NOZOMI's Profile</div>
-        <ul class="tag">
-            <li><a href="#top">Top</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Skill">Skill</a></li>
-            <li><a href="#Works">Works</a></li>
-            <li><a href="#Contact">Contact</a></li>
-        </ul>
+      <div class="header-logo">NOZOMI's Profile</div>
+      <ul class="tag">
+        <li><a href="#top">Top</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Skill">Skill</a></li>
+        <li><a href="#Works">Works</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
     </header>
     <main>
-        <!-- 画像切り替え -->
-        <div class="top-wrapper" id="top">
-            <div class="output">
-                <img src="image/uk.jpg" id="main-image">
+      <!-- 画像切り替え -->
+      <div class="top-wrapper" id="top">
+        <div class="output">
+          <img src="image/uk.jpg" id="main-image" />
+        </div>
+        <h1 id="sentense">
+          Hello. <br />My name is Nozomi. <br />Thank you for visiting this
+          site. <br />Now Scroll down
+        </h1>
+      </div>
+
+      <div class="contents">
+        <!-- about -->
+        <div id="About">
+          <div class="title">
+            <img src="image/icon.png" width="30px" height="30px" /><span
+              >About</span
+            >
+            <hr width="500px" color="#ffcccc" />
+          </div>
+          <div class="profile">
+            <ul>
+              <li>
+                <img src="image/pencil.png" width="20px" height="20px" /><span
+                  >Name</span
+                ><br />Nozomi Nakamitsu
+              </li>
+              <li>
+                <img src="image/job.png" width="20px" height="20px" /><span
+                  >Job</span
+                ><br />restaurant staff
+              </li>
+              <li>
+                <img src="image/school.png" width="20px" height="20px" /><span
+                  >School</span
+                ><br />Doshisha university <br />Faculty of Commerce
+              </li>
+              <li>
+                <img src="image/cake.png" width="20px" height="20px" /><span
+                  >Birthday</span
+                ><br />1997-01-31
+              </li>
+            </ul>
+            <div class="interast">
+              <img src="image/search.png" width="20px" height="20px" />
+              <span>Recent interasts</span><br />javascript <br />Ruby on Rails
+              <br />English
             </div>
-            <h1 id="sentense">Hello. <br>My name is Nozomi. <br>Thank you for visiting this site. <br>Now Scroll down
-            </h1>
+          </div>
         </div>
 
-
-        <div class="contents">
-            <!-- about -->
-            <div id="About">
-                <div class="title">
-                    <img src="image/icon.png" width="30px" height="30px"><span>About</span>
-                    <hr width="500px" color="#ffcccc">
-                </div>
-                <div class="profile">
-                    <ul>
-                        <li><img src="image/pencil.png" width="20px" height="20px"><span>Name</span><br>Nozomi Nakamitsu
-                        </li>
-                        <li><img src="image/job.png" width="20px" height="20px"><span>Job</span><br>restaurant staff
-                        </li>
-                        <li><img src="image/school.png" width="20px" height="20px"><span>School</span><br>Doshisha
-                            university <br>Faculty of Commerce</li>
-                        <li><img src="image/cake.png" width="20px" height="20px"><span>Birthday</span><br>1997-01-31
-                        </li>
-                    </ul>
-                    <div class="interast">
-                        <img src="image/search.png" width="20px" height="20px"> <span>Recent
-                            interasts</span><br>javascript <br>Ruby on Rails <br>English
-                    </div>
-                </div>
+        <!-- skill -->
+        <div id="Skill">
+          <div class="title">
+            <img src="image/skill.png" width="30px" height="30px" /><span
+              >Skill</span
+            >
+            <hr width="500px" color="#ffcccc" />
+          </div>
+          <div class="profile">
+            <ul>
+              <li>
+                <img src="image/html-5.svg" width="60px" height="60px" /><br />
+                <span>HTML</span>
+              </li>
+              <li>
+                <img src="image/css-3.svg" width="60px" height="60px" /><br />
+                <span>CSS</span>
+              </li>
+              <li>
+                <img
+                  src="image/javascript.svg"
+                  width="60px"
+                  height="60px"
+                /><br />
+                <span>javascript</span>
+              </li>
+              <li>
+                <img src="image/eng.png" width="60px" height="60px" /><br />
+                <span>ENGLISH</span>
+              </li>
+            </ul>
+            <div class="interast">
+              <img
+                src="image/github-icon.svg"
+                width="60px"
+                height="60px"
+              /><br /><span>Github</span>
             </div>
-
-
-            <!-- skill -->
-            <div id="Skill">
-                <div class="title">
-                    <img src="image/skill.png" width="30px" height="30px"><span>Skill</span>
-                    <hr width="500px" color="#ffcccc">
-                </div>
-                <div class="profile">
-                    <ul>
-                        <li><img src="image/html-5.svg" width="60px" height="60px"><br> <span>HTML</span></li>
-                        <li><img src="image/css-3.svg" width="60px" height="60px"><br> <span>CSS</span></li>
-                        <li><img src="image/javascript.svg" width="60px" height="60px"><br> <span>javascript</span></li>
-                        <li><img src="image/eng.png" width="60px" height="60px"><br> <span>ENGLISH</span></li>
-                    </ul>
-                    <div class="interast">
-                        <img src="image/github-icon.svg" width="60px" height="60px"><br><span>Github</span>
-                    </div>
-
-                </div>
-
-
-
-
-
-            </div>
-            <!--works  -->
-            <div id="Works">
-                <div class="title">
-                    <img src="image/work.png" width="30px" height="30px"><span>Works</span>
-                    <hr width="500px" color="#ffcccc">
-                </div>
-                <div class="work-sample">
-                    <table>
-                        <tr><img src="image/profile.png" width="300px" height="150px"></tr>
-                        <tr>
-                            <p class="title-text"><strong>This site</strong></p>
-                            <p class="description">私のプロフィールサイト</p>
-                            <p class="description">Language:HTML,CSS,JavaScript</p>
-                            <a href="https://github.com/nakamitsu-nozomi/nozomi-2" class="btn">Github</a>
-
-                        </tr>
-
-                    </table>
-                </div>
-
-            </div>
-            <!-- contact -->
-            <div id="Contact">
-                <div class="title">
-                    <img src="image/hand.png" width="30px" height="30px"><span>Contact</span>
-                    <hr width="500px" color="#ffcccc">
-                </div>
-                <div class="contact-item">
-                    <div class="location">
-                        <img src="image/location.png" width="20px" height="20px"> <span>Location</span><br>　Japan,Tokyo
-                    </div>
-                    <div class="web">
-                        <div class="webtitle"> <img src="image/groval.png" width="20px" height="20px"> <span>Around the
-                                web</span></div>
-                        <ul>
-
-                            <li><a href="https://twitter.com/engneer_louis"><img src="image/Twitter_Logo_Blue.png"
-                                        width="40px" height="40px"></a></li>
-                            <li><a href="mailto:exnnss0131@gmail.com"><img src="image/gmail.png" width="40px"
-                                        height="40px"></a></li>
-                            <li><a href="https://www.instagram.com/nozominakamitsu_official/"><img
-                                        src="image/Instagram_AppIcon_Aug2017.png" width="40px" height="40px"></a></li>
-                            <li><a href="https://github.com/nakamitsu-nozomi"><img src="image/github-icon.svg"
-                                        width="40px" height="40px"></a></li>
-                        </ul>
-                    </div>
-
-
-                </div>
-            </div>
+          </div>
         </div>
-
-
+        <!--works  -->
+        <div id="Works">
+          <div class="title">
+            <img src="image/work.png" width="30px" height="30px" /><span
+              >Works</span
+            >
+            <hr width="500px" color="#ffcccc" />
+          </div>
+          <div class="work-sample">
+            <table>
+              <tr>
+                <img src="image/profile.png" width="300px" height="150px" />
+              </tr>
+              <tr>
+                <p class="title-text"><strong>This site</strong></p>
+                <p class="description">私のプロフィールサイト</p>
+                <p class="description">Language:HTML,CSS,JavaScript</p>
+                <a
+                  href="https://github.com/nakamitsu-nozomi/nozomi-2"
+                  class="btn"
+                  >Github</a
+                >
+              </tr>
+            </table>
+          </div>
+        </div>
+        <!-- contact -->
+        <div id="Contact">
+          <div class="title">
+            <img src="image/hand.png" width="30px" height="30px" /><span
+              >Contact</span
+            >
+            <hr width="500px" color="#ffcccc" />
+          </div>
+          <div class="contact-item">
+            <div class="location">
+              <img src="image/location.png" width="20px" height="20px" />
+              <span>Location</span><br />　Japan,Tokyo
+            </div>
+            <div class="web">
+              <div class="webtitle">
+                <img src="image/groval.png" width="20px" height="20px" />
+                <span>Around the web</span>
+              </div>
+              <ul>
+                <li>
+                  <a href="https://twitter.com/engneer_louis"
+                    ><img
+                      src="image/Twitter_Logo_Blue.png"
+                      width="40px"
+                      height="40px"
+                  /></a>
+                </li>
+                <li>
+                  <a href="mailto:exnnss0131@gmail.com"
+                    ><img src="image/gmail.png" width="40px" height="40px"
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/nozominakamitsu_official/"
+                    ><img
+                      src="image/Instagram_AppIcon_Aug2017.png"
+                      width="40px"
+                      height="40px"
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://github.com/nakamitsu-nozomi"
+                    ><img
+                      src="image/github-icon.svg"
+                      width="40px"
+                      height="40px"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer>
-        <h3>©2020 Nozomi Nakamitsu</h3>
+      <h3>©2020 Nozomi Nakamitsu</h3>
     </footer>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
 <p>のぞみ</p>
