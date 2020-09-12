@@ -242,11 +242,7 @@ hr {
   justify-content: center;
 }
 
-.interast {
-  text-align: center;
-  padding-left: 50px;
-  margin-top: 30px;
-}
+
 
 .mokuhyou {
   border-top: 2px dotted #666666;
@@ -435,9 +431,9 @@ footer h3 {
   }
   .header-logo {
     float: left;
-    padding-top: 10px;
+    padding-top: 15px;
     font-size: 40px;
-    margin-left: 0;
+    padding-left: 10px;
   }
   .hamburger {
     display: block;
@@ -447,6 +443,13 @@ footer h3 {
     max-width: 768px; 
     text-align: center;
   }
+  .profile ul {
+    width: 100%;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+
   .sub_image {
     text-align: center;
     margin: 0 auto;
@@ -457,11 +460,15 @@ footer h3 {
   #skill ul {
     width: 100%;
   }
-/* work */
+  /* work */
   .point {
     margin-left: 0;
   }
-  
+
+  .work-sample {
+      width: 80%;
+      
+    }
 
 
 
@@ -471,6 +478,8 @@ footer h3 {
   #main-image {
     height: 300px;
     width: 100%;
+    margin: 0;
+    padding: 0;
   }
 
   #sentense {
@@ -497,8 +506,9 @@ footer h3 {
 
   .header-logo {
     float: left;
-    padding-top: 10px;
-    font-size: 40px;
+    padding: 20px;
+    font-size: 30px;
+   
   }
 
   .hamburger {
@@ -514,11 +524,14 @@ footer h3 {
     padding: 0;
   }
 
+
+
   .sub_image {
     text-align: center;
     margin: 0 auto;
     padding: 0;
   }
+
     /* skill */
      #skill img {
        width: 60px;
@@ -533,11 +546,8 @@ footer h3 {
      .title-text {
        font-size: 30px;
      }
-      .work-sample {
-        width: 100%;
-        margin-left: 20px;
-        margin-right: 20px;
-      }
+      
+     
     
 
  
