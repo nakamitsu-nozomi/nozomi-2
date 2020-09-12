@@ -450,6 +450,12 @@ footer h3 {
     text-align: center;
     margin: 0 auto;
   }
+
+  /* skill */
+  #skill ul {
+    width: 100%;
+  }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -499,4 +505,15 @@ footer h3 {
     text-align: center;
     margin: 0 auto;
   }
+    /* skill */
+     #skill img {
+       width: 60px;
+       height: 60px;
+     }
+
+     #skill p {
+       font-size: 30px;
+       margin-top: 2px;
+     }
+    
 }
