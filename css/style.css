@@ -420,6 +420,7 @@ footer h3 {
   }
 
   #sentense {
+    margin-bottom: 15px;
     font-size: 30px;
     position: absolute;
     color: #fff;
@@ -443,18 +444,26 @@ footer h3 {
   }
   /* main */
   body {
-    max-width: 768px;
+    max-width: 768px; 
     text-align: center;
   }
   .sub_image {
     text-align: center;
     margin: 0 auto;
+    padding: 0;
   }
 
   /* skill */
   #skill ul {
     width: 100%;
   }
+/* work */
+  .point {
+    margin-left: 0;
+  }
+  
+
+
 
 }
 
@@ -465,6 +474,7 @@ footer h3 {
   }
 
   #sentense {
+    margin-bottom: 15px;
     font-size: 15px;
     position: absolute;
     color: #fff;
@@ -497,13 +507,17 @@ footer h3 {
 
   /* main */
   body {
-    max-width: 480px;
+    /* max-width: 480px; */
+    width: 100%;
     text-align: center;
+    margin: 0;
+    padding: 0;
   }
 
   .sub_image {
     text-align: center;
     margin: 0 auto;
+    padding: 0;
   }
     /* skill */
      #skill img {
@@ -515,5 +529,18 @@ footer h3 {
        font-size: 30px;
        margin-top: 2px;
      }
+     /* work */
+     .title-text {
+       font-size: 30px;
+     }
+      .work-sample {
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+    
+
+ 
+
     
 }
