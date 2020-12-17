@@ -7,7 +7,7 @@ $(function () {
 
 
     // 画像切り替え
-    var images = ["image/uk.jpg", "image/usa.jpg", "image/eigo.jpg", "image/lacrosse.jpg"];
+    var images = ["image/uk.jpg", "image/eigo.jpg", "image/lacrosse.jpg"];
     var current = -1
     var picture = document.getElementById("main-image");
 
