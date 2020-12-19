@@ -1,10 +1,15 @@
 /* 共通 */
 body {
-  margin: 0px;
+margin-right: auto;
+margin-left : auto;
   padding: 0px;
   font-family: "Open Sans Condensed", sans-serif;
   position: relative;
   width: 100%;
+  max-width: 1200px;
+}
+.main{
+  margin: 0,auto;
 }
 
 .bs {
@@ -23,8 +28,11 @@ header {
   width: 100%;
   color: #ffcccc;
   top: 0;
-  left: 0;
+  /* left: 0; */
   z-index: 9999;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left : auto;
 }
 
 .tag {
@@ -48,6 +56,7 @@ a:active {
 
 .tag a {
   text-decoration: none;
+   color: #ffcccc;
 }
 
 .header-logo {
@@ -62,6 +71,9 @@ a:active {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 1200px;
+  margin: 0,
+  auto;
 }
 
 /*　ハンバーガーボタン　*/
@@ -160,7 +172,7 @@ hr {
 .profile ul {
   width: 50%;
   justify-content: center;
-  margin-left: 150px;
+  margin-left: 50px;
 }
 
 .profile li {
