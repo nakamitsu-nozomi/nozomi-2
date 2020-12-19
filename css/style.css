@@ -271,6 +271,21 @@ li img {
 .work-title {
   font-size: 20px;
 }
+.app-description{
+  margin-left: 20px;
+ 
+}
+.app-url{
+  margin:20px;
+  width:100%;
+}
+.btn:hover {
+  background-color:#666666;
+  color:#ffcccc;
+}
+
+  
+
 
 /* others */
 .others-span span {
